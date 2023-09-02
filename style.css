@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00003e;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    color: #0eca30;
+    font-size: 36px;
+}
+
+.game {
+    background-color: #00002d;
+    min-width: 80%;
+    min-height: 60%;
+    border-radius: 20px 20px 0px 0px;
+    border: solid 2px #0eca30;
+
+}
+
+.status {
+    width: 100%;
+    height: 20%;
+    border-bottom: solid 2px #0eca30;
+    color: #0eca30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.status_text{
+    padding: 0;
+    margin: 0;
+    font-size: 48px;
+}
+
+.gamers {
+    display: flex;
+}
+
+.gamer {
+    width: 50%;
+    height: 80%;
+    color: #0eca30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player {}
+
+.computer {}
+
+.items {
+    background-color: #0eca30;
+    width: 80%;
+    height: 20%;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item{
+    font-size: 48px;
+    color: #00002d;
+    border: solid 3px #00002d;
+    border-radius: 30px;
+    padding: 20px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.name {
+    font-size: 48px;
+}
+
+.choice {
+    font-size: 48px;
+}
+
+.score {
+    font-size: 48px;
+}
+
+.score_status {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
