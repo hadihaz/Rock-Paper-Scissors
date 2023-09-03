@@ -11,29 +11,37 @@
     <h1>Rock Paper Scissors</h1>
     <div class="game">
         <div class="status">
-            <p class="status_text">Hello!</p>
+            <p id="statusText" class="status_text">Hello!</p>
         </div>
         <div class="gamers">
             <div class="player gamer">
                 <div class="score_status">
                     <p class="name">player</p>
-                    <p class="score">0</p>
+                    <p id="playerScore" class="score">0</p>
                 </div>
-                <p class="choice"></p>
+                <img id="playerImg" class="choiceImg" src="" alt="">
+
             </div>
             <div class="computer gamer">
                 <div class="score_status">
-                    <p class="score">0</p>
+                    <p id="computerScore" class="score">0</p>
                     <p class="name">computer</p>
                 </div>
-                <p class="choice"></p>
+                <img id="computerImg" class="choiceImg" src="" alt="">
             </div>
         </div>
     </div>
     <div class="items">
-        <div class="item">Rock</div>
-        <div class="item">Paper</div>
-        <div class="item">Scissors</div>
+        <div id="Rock" class="item">
+            <img class="img" src="img/Rock.png" alt="">
+        </div>
+        <div id="Paper" class="item">
+            <img class="img" src="img/Paper.png" alt="">
+        </div>
+        <div id="Scissors" class="item">
+            <img class="img" src="img/Scissors.png" alt="">
+        </div>
+        <div class="playAgain">Play Again</div>
     </div>
     <script src="app.js"></script>
 </body>
