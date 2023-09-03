@@ -12,10 +12,11 @@ h1 {
 }
 
 .game {
-    background-color: #00002d;
-    min-width: 80%;
+    /* background-color: #00002d; */
+    background-color: #00003e;
+    min-width: 70%;
     min-height: 60%;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px;
     border: solid 2px #0eca30;
 
 }
@@ -29,7 +30,8 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-.status_text{
+
+.status_text {
     padding: 0;
     margin: 0;
     font-size: 48px;
@@ -48,28 +50,18 @@ h1 {
     align-items: center;
 }
 
-.player {}
 
-.computer {}
 
 .items {
-    background-color: #0eca30;
-    width: 80%;
+    background-color: #00003e;
+    width: 70%;
     height: 20%;
-    border-radius: 0px 0px 20px 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.item{
-    font-size: 48px;
-    color: #00002d;
-    border: solid 3px #00002d;
-    border-radius: 30px;
-    padding: 20px;
-    min-width: 200px;
-    text-align: center;
-}
+
+
 
 .name {
     font-size: 48px;
@@ -87,4 +79,23 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 100px;
+}
+
+.choiceImg {
+    border-radius: 100%;
+    max-width: 170px;
+}
+
+.img {
+    border-radius: 100%;
+    max-width: 100px;
+}
+
+.playAgain {
+    color: #0eca30;
+    font-size: 36px;
+    border: solid 2px #0eca30;
+    border-radius: 20px;
+    padding: 25px;
+    display: none;
 }
